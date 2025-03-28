@@ -54,7 +54,7 @@ log_queue = asyncio.Queue()
 # client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 async def extract_appointment_details(transcript):
-    api_key="AIzaSyDT9xCJmJ9-KroeDsNC8Fnt_j468ozBA9s"
+    api_key=os.environ.get('GEMINI_API_KEY')
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment variables")
 
