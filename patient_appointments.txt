@@ -1,0 +1,18 @@
+Name: Sommel
+Phone: 123-456-7890
+Doctor: Dr. Thompson
+Time Slot: None
+Logged At: 2025-03-28 18:09:51.580904
+----------------------------------------
+Name: Yesh Rathore
+Phone: 831-923-4373
+Doctor: None
+Time Slot: None
+Logged At: 2025-03-28 18:13:26.185826
+----------------------------------------
+Name: Yashra Dhor
+Phone: 83192343
+Doctor: one of our specialized doctors
+Time Slot: tomorrow at 12 PM
+Logged At: 2025-03-28 18:17:47.862111
+----------------------------------------
