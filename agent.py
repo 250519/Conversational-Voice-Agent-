@@ -129,9 +129,9 @@ async def entrypoint(ctx: JobContext):
 
     agent = VoicePipelineAgent(
         vad=ctx.proc.userdata["vad"],
-        stt=deepgram.STT(language="eng-in"),
+        stt=deepgram.STT(language="en-IN"),
         llm=openai.LLM.with_groq(model="llama-3.3-70b-versatile"),
-        tts=cartesia.TTS(voice="694f9389-aac1-45b6-b726-9d9369183238"),
+        tts=cartesia.TTS(language='hi',voice="28ca2041-5dda-42df-8123-f58ea9c3da00"),
         chat_ctx=initial_ctx,
         fnc_ctx=fnc_ctx,
         preemptive_synthesis=True,
